@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First deployed</title>
+</head>
+<body>
+
+    
+    <div id="pad"> <input type="text" id="pseudo">
+        <input type="text" id="email" > <div id="em">Email</div>
+        <div id="ps">Pseudo</div></div>
+
+
+    <style>
+        body{
+            background-color: rgb(59, 59, 59);
+        }
+        #pad{
+            width: 400px;height: 300px;
+            position: fixed;
+            left: calc(50vw - 200px);top: calc(50vh - 150px);
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            background-color: rgb(30, 30, 30);
+            box-shadow: 0px 0px 10px  rgb(41, 41, 41);
+
+        }
+        #ps{
+            position: fixed;
+            left: calc(110px + 5px) ;top: calc(50px - 20px);
+            letter-spacing: 0px;
+            font-family: sans-serif ;
+            color: rgb(127, 127, 127);
+
+
+        }
+        #pseudo{
+            position: fixed;
+            left: 110px;top: 50px;
+            border-radius: 25px;
+            border: 1px rgb(127, 127, 127) solid ;
+            padding: 6px 4px;
+            background-color: transparent;
+            color: rgb(127, 127, 127);
+            font-family: sans-serif ;
+            
+
+
+        }
+        #pseudo:focus{
+            border-color: rgb(46, 79, 199);
+            outline: none;
+
+            
+        }
+        #em{
+            position: fixed;
+            left: calc(110px + 5px) ;top: calc(150px - 20px);
+            letter-spacing: 0px;
+            font-family: sans-serif ;
+            color: rgb(127, 127, 127);
+
+        }
+        #email{
+            position: fixed;
+            left: 110px;top: 150px;
+            border-radius: 25px;
+            border: 1px rgb(127, 127, 127) solid ;
+            padding: 6px 4px;
+            background-color: transparent;
+            color: rgb(127, 127, 127);
+            font-family: sans-serif ;
+
+
+
+        }
+        #email:focus{
+            border-color: rgb(46, 79, 199);
+            outline: none;
+        }
+
+
+    </style>
+    <script>
+
+    </script>
+    
+</body>
+</html>
